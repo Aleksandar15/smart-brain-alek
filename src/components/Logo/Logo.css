@@ -1,0 +1,22 @@
+.Tilt {
+    
+    /*
+    background: #2c3e50;  
+  background: -webkit-linear-gradient(to right, rgba(52, 152, 219, .9), rgba(44, 62, 80, .9));  
+  background: linear-gradient(to right, rgba(52, 152, 219, .9), rgba(44, 62, 80, .9)); 
+  */
+}
+.Tilt-inner {
+    height: 100%;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.Tilt-inner img {
+    width: 90px;
+    vertical-align: middle;
+}
+
