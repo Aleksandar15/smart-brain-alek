@@ -43,6 +43,9 @@ const onLogReg = (
         }
       });
   } else {
+    alert(
+      `Please await my postgres-database deployed on "Render" to wake up. :)`
+    );
     console.log("log in");
     if (guest === "guest") {
       email = "guest@gmail.com";
