@@ -23,7 +23,7 @@ const onLogReg = (
   // );
   if (type === "register") {
     console.log("register");
-    fetch("https://smart-brain-alek-api.up.railway.app/register", {
+    fetch("https://smart-brain-alek-server.onrender.com/register", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -48,7 +48,7 @@ const onLogReg = (
       email = "guest@gmail.com";
       password = "password";
     }
-    fetch("https://smart-brain-alek-api.up.railway.app/signin", {
+    fetch("https://smart-brain-alek-server.onrender.com/signin", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

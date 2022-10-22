@@ -67,7 +67,7 @@ class App extends Component {
   };
 
   onSubmitRegister = (email, password, name) => {
-    fetch("https://smart-brain-alek-api.up.railway.app/register", {
+    fetch("https://smart-brain-alek-server.onrender.com/register", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -93,7 +93,7 @@ class App extends Component {
     const email = "guest@gmail.com";
     const password = "password";
     const name = "Guest";
-    fetch("https://smart-brain-alek-api.up.railway.app/signin", {
+    fetch("https://smart-brain-alek-server.onrender.com/signin", {
       method: "post",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -116,7 +116,7 @@ class App extends Component {
 
   deleteUser = (email, password) => {
     console.log(email, password);
-    fetch("https://smart-brain-alek-api.up.railway.app/delete", {
+    fetch("https://smart-brain-alek-server.onrender.com/delete", {
       method: "delete",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -153,7 +153,7 @@ class App extends Component {
     if (this.state.input === "") {
       alert("Link cannot be empty!");
     } else {
-      fetch("https://smart-brain-alek-api.up.railway.app/imageurl", {
+      fetch("https://smart-brain-alek-server.onrender.com/imageurl", {
         method: "post",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -163,7 +163,7 @@ class App extends Component {
         .then((response) => response.json())
         .then((response) => {
           if (response) {
-            fetch("https://smart-brain-alek-api.up.railway.app/image", {
+            fetch("https://smart-brain-alek-server.onrender.com/image", {
               method: "put",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({
@@ -194,7 +194,7 @@ class App extends Component {
 
     document.body.appendChild(script);
 
-    fetch("https://smart-brain-alek-api.up.railway.app/")
+    fetch("https://smart-brain-alek-server.onrender.com/")
       .then((response) => response.json())
       .then(console.log);
     this.createGuest();
