@@ -1,7 +1,7 @@
 ﻿﻿﻿
    # <p>Smart-Brain </p>
 
-##### -> <a href="https://github.com/Aleksandar15/smart-brain-alek_server">Here</a> is my frontend repository.
+##### -> <a href="https://github.com/Aleksandar15/smart-brain-alek_server">Here</a> is my backend repository.
 
 #### About my Full-Stack Smart Brain App:
 
