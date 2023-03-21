@@ -5,9 +5,11 @@
 
 #### About my Full-Stack Smart Brain App:
 
-I created this app using React on the frontend, while NodeJS with Express on the backend & PostgreSQL database. With `Clarifai API` feature used to detect faces of an image - which then the total count number of "detected faces" are stored on each user's data.
+I created smart-brain app using ReactJS on the frontend, with NodeJS + ExpressJS library on the backend & PostgreSQL database. While `Clarifai API` is used to detect faces of an image - which then the 'counts' number of total "detected faces" are stored in each user's data.
+- *Clarifai API* allows for both image and video recognition, in my code I used it for detecting faces of an image URL link (*) provided in the search field.
+  - *URL link has to be correct otherwise its due to fail if Clarifai API can't recognize the image format.
 
-#### Visit my live website here: https://smart-brain-alek.netlify.app
+##### Visit my live website here: https://smart-brain-alek.netlify.app
 
 ##### Test login user:
 
